@@ -1,0 +1,13 @@
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones. Además de la main branch que contendrá las versiones x.y.z. Se planea la inclusión de las ramas de “develop branch”, “release branch” y “features branch”.
+ 
+Master branch o rama principal: La rama principal en Git de la aplicación, mantendrá versiones estables y finales de las etapas del desarrollo. Dentro de esta únicamente se realizarán cambios que hayan sido testeados y ya verificados en otras ramas de prueba.
+ 
+Develop branch o rama de desarrollo: En esta rama se realizarán los avances del proyecto en equipo y se mantendrán los archivos centrales del desarrollo continuo.
+ 
+Release branch o rama de lanzamiento: Se utilizará para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Para guardar la instancia, primero será necesario decidir el tipo de versión (x,y,z); se cambiará “x” si corresponde a una nueva versión de la aplicación, incluyendo nuevas funcionalidades y corrección de errores. Por otra parte, se cambiará “y” en el único caso que se agreguen funcionalidades adicionales a la aplicación. Finalmente, se sumará a “z” para instancias que contengan únicamente parches para corregir los bugs y problemas que afecten a la misma. Luego de determinar el tipo de versión, se corregirán los posibles errores y se harán las revisiones finales. 
+ 
+Feature branch o rama de funcionalidad: En esta rama se incluirán las funcionalidades desarrolladas por parte del equipo, o aquellas separadas del enfoque actual del desarrollo. Una vez que se encuentren trabajadas en su totalidad, serán incluidas en la rama de desarrollo del proyecto. En la presente aplicación únicamente se considerarán las funcionalidades del log-in de los usuarios y de la creación de nuevos proyectos Scrum.
+ 
+Hotfix branch o rama de corrección: Se utilizará para desarrollar parches para la corrección de errores de forma puntual. Es decir, cuando se identifica un bug o problema en la rama principal que afecte significativamente la experiencia de los usuarios.
+ 
+El diagrama a continuación fue realizado con la aplicación LucidChart, y muestra el ciclo de desarrollo del proyecto.
